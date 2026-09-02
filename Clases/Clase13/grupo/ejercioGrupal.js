@@ -29,17 +29,25 @@ ejer2.question("Ingrese su nombre: ", function (nombre) {
             let rendimiento = cantidadElaborados / horasTrabajadas;
             rendimiento = rendimiento.toFixed(1);
 
-            console.log("Nombre del empleado: " + nombre);
-            console.log("Rendimiento: " + rendimiento + " productos por hora");
-
             if (rendimiento > 8) {
+                console.log("---------------------------------------------------------------")
+                console.log("Nombre del empleado: " + nombre);
+                console.log("---------------------------------------------------------------")
+                console.log("Rendimiento: " + rendimiento + " productos por hora");
+                console.log("---------------------------------------------------------------")
                 console.log("Rendimiento alto");
+                console.log("---------------------------------------------------------------")
             } else {
+                console.log("---------------------------------------------------------------")
+                console.log("Nombre del empleado: " + nombre);
+                console.log("---------------------------------------------------------------")
+                console.log("Rendimiento: " + rendimiento + " productos por hora");
+                console.log("---------------------------------------------------------------")
                 console.log("Rendimiento regular");
+                console.log("---------------------------------------------------------------")
             }
-
             ejer2.close();
-        }
+            }
         );
     }
     );
