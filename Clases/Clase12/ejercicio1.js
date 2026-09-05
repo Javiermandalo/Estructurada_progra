@@ -1,5 +1,4 @@
 import readline from 'node:readline';
-import { nodeModuleNameResolver } from 'typescript';
 
 const rl = readline.createInterface({
     input: process.stdin,

@@ -12,7 +12,7 @@ prome_Notas.question ("Ingrese una primera nota: ", function(nota1){
 
             nota1 = Number(nota1);
             nota2 = Number(nota2);
-            nota3 = Number(nota3)
+            nota3 = Number(nota3);
 
             const promedio = (nota1 + nota2 + nota3)/3;
 
