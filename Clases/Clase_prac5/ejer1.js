@@ -35,7 +35,6 @@ ejer1.question('Ingrese su nombre: ', function(nombre){
                 console.log(`Bonificación aplicada: ${bonificacion}`);
                 console.log(`Calificación final: ${calificacionFinal}`);
             }
-
             ejer1.close();
         });
     });
