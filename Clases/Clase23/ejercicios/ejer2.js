@@ -1,4 +1,3 @@
-import { futimesSync } from 'node:fs';
 import readline from 'node:readline';
 
 const empleados = readline.createInterface({
